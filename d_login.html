@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/css/d_login.css" />
+
+		<title>Doctor Login</title>
+	</head>
+	<body>
+		<p id="error-message" class="error-message"></p>
+		<div class="login-container">
+			<h1>Doctor Login</h1>
+			<form id="doctorLoginForm">
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required /><br /><br />
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password" required />
+				<a href="#" id="foreget">Forget Password?</a>
+				<button type="submit">Login</button>
+			</form>
+			<p id="signup">
+				Not a Member? <a href="/d_signup">Registration Know </a>
+			</p>
+		</div>
+		<script src="/js/d_login.js"></script>
+	</body>
+</html>

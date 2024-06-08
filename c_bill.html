@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+		/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/boxicons@2.1.1/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
+
+		<!-- Favicons -->
+		<link href="/images/logo2.png" rel="icon" />
+		<link href="/images/logo2.png" rel="apple-touch-icon" />
+
+		<!-- Google Fonts -->
+		<link
+			href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+			rel="stylesheet"
+		/>
+
+		<!-- Vendor CSS Files -->
+		<link href="vendor/animate.css/animate.min.css" rel="stylesheet" />
+		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+		<link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+		<link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+		<link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+		<!-- Template Main CSS File -->
+
+		<link rel="stylesheet" href="/css/styles.css" />
+		<link rel="stylesheet" href="/css/nav_foot.css" />
+		<title>E-prescription Doctor</title>
+		<link rel="stylesheet" type="text/css" href="css/c_bill.css" />
+	</head>
+	<body>
+		<header id="header" class="d-flex align-items-center">
+			<div class="container d-flex align-items-center">
+				<a href="/dashboard_d" class="logo me-auto logo-img"
+					><img src="/images/logo2.png" alt="" class="img-fluid"
+				/></a>
+				<h1 class="logo me-auto"><a href="/dashboard_d">E-Prescription</a></h1>
+
+				<nav id="navbar" class="navbar">
+					<ul>
+						<li>
+							<a class="nav-link scrollto active" href="/dashboard_d">Home</a>
+						</li>
+						<li>
+							<a class="nav-link scrollto" href="/prescription"
+								>Create Prescription</a
+							>
+						</li>
+						<li>
+							<a class="nav-link scrollto" href="/patient-history"
+								>Patient History</a
+							>
+						</li>
+						<li>
+							<a class="nav-link scrollto" href="/monthly-report">Report</a>
+						</li>
+						<li>
+							<a class="nav-link scrollto" href="/about_d">About</a>
+						</li>
+						<li class="dropdown">
+							<a href="#">
+								<span><i class="bi bi-person-fill"></i></span>
+								<i class="bi bi-chevron-down"></i>
+							</a>
+							<ul>
+								<li><a href="/logout">Log Out</a></li>
+							</ul>
+						</li>
+					</ul>
+					<i class="bi bi-list mobile-nav-toggle"></i>
+				</nav>
+				<!-- .navbar -->
+			</div>
+		</header>
+
+		<form id="billForm">
+			<label for="patient_id">Patient ID:</label><br />
+			<input type="text" id="patient_id" name="patient_id" /><br />
+			<div id="billItems">
+				<div class="billItem">
+					<label for="particular">Particular:</label><br />
+					<input type="text" class="particular" name="particular[]" /><br />
+					<label for="amount">Amount:</label><br />
+					<input type="text" class="amount" name="amount[]" /><br />
+				</div>
+			</div>
+			<button type="button" id="addItem">Add Item</button><br />
+			<input type="submit" value="Submit" />
+		</form>
+		<footer id="footer">
+			<div class="container">
+				<h3>E-Prescription</h3>
+				<p>
+					Generated electronically for patient convenience. Always follow your
+					healthcare provider's advice and medication instructions.
+				</p>
+				<div class="social-links">
+					<a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+					<a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+					<a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+					<a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+					<a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+				</div>
+				<div class="copyright">
+					&copy; Copyright <strong><span>E-Prescription</span></strong
+					>. All Rights Reserved
+				</div>
+			</div>
+		</footer>
+
+		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<script src="vendor/glightbox/js/glightbox.min.js"></script>
+		<script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+		<script src="vendor/swiper/swiper-bundle.min.js"></script>
+		<script src="vendor/php-email-form/validate.js"></script>
+
+		<!-- Template Main JS File -->
+		<script src="/js/main.js"></script>
+
+		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+		<script src="/js/script.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+		<script src="/js/c_bill.js"></script>
+	</body>
+</html>
