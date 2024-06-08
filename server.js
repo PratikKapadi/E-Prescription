@@ -13,7 +13,7 @@ const pool = mysql.createPool({
 
     host: 'localhost',
     user: 'root',
-    password: 'pratik',
+    password: 'your database password',
     database: 'eprescription'
 });
 // Session middleware
