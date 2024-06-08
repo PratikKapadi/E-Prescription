@@ -1,0 +1,80 @@
+.container-c {
+    display: flex;
+    margin: 0 auto;
+    padding: 20px;
+    left: auto;
+    width: 100%;
+
+}
+
+.form {
+    width: 100%;
+    margin: 30px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contact-info {
+    margin-top: 50px;
+    margin: 30px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+/* .btn {
+
+    margin-right: 30px;
+} */
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+    /* border-radius: 5px; */
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: 1px solid black;
+}
+
+.textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    /* border-radius: 5px; */
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: 1px solid black;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}

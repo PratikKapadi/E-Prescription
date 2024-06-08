@@ -1,0 +1,30 @@
+header {
+    background-color: #f9f9f9;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.about-section {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.about-section h2 {
+    color: #333;
+}
+
+.about-section p {
+    color: #666;
+}
+
+.about-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
