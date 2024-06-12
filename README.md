@@ -64,9 +64,6 @@ To contribute to E-Prescription, follow these steps:
 
 Alternatively, see the GitHub documentation on [creating a pull request](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) for more information.
 
-## Contact
-
-If you want to contact me, you can reach me at [your-email@example.com].
 
 ## License
 
